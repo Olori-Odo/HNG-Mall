@@ -38,10 +38,10 @@ const NavbarLinks = () => {
               </li>
               <li className="nav-item">
                 <Link to="/shop" className="nav-link">
-                  Shop
+                  Categories
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -71,7 +71,7 @@ const NavbarLinks = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
             <form className="d-flex rounded-pill" role="search">
               <div className="  input-group col-md-4 px-5">

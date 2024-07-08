@@ -2,10 +2,13 @@ import React from "react";
 import Shoe1 from "../assets/shoe1.png";
 import StrideMax from "../assets/o-b-sneakers.png";
 import BlackBoot from "../assets/black-boot.png";
-import BlueCross from "../assets/blue-cross.png";
+import BlueCrocs from "../assets/blue-cross.png";
 import CowboyBoot from "../assets/cowboy-boot.png";
-import Logo from "../assets/foot-logo.jpeg";
+import RedCrocs from "../assets/red-crocs.png";
+import OrangeSneakers from "../assets/orange-snea.png";
 import Footer from "./footer";
+import { CiHeart } from "react-icons/ci";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Home = () => {
   return (
@@ -31,9 +34,9 @@ const Home = () => {
         <h6 className="py-3">Top Sellers</h6>
 
         <div className="row row-cols-1 row-cols-md-3 g-4 ">
-          <div className="col bg-secondary-subtle">
-            <div className="card">
-              <img src={BlackBoot} className="card-img-top" alt="Black Boot" />
+          <div className="col ">
+            <div className="card bg-secondary-subtle">
+              <img src={BlackBoot} className="card-img-top " alt="Black Boot" />
 
               <div className="card-body">
                 <p>Mens's Shoes</p>
@@ -44,7 +47,7 @@ const Home = () => {
           </div>
 
           <div className="col">
-            <div className="card">
+            <div className="card bg-secondary-subtle">
               <img src={Shoe1} className="card-img-top" alt="Shoe1" />
               <div className="card-body">
                 <p>Men's Shoes</p>
@@ -54,7 +57,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card">
+            <div className="card bg-secondary-subtle">
               <img
                 src={StrideMax}
                 className="card-img-top"
@@ -67,52 +70,177 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <h2 className=" col-12 py-4">Featured Products</h2>
+          <h2 className="  py-4">Featured Products</h2>
+        </div>
 
-          <div className="row row-cols-1 row-cols-md-3 g-4 ">
-            <div className="card">
-              <img
-                src={StrideMax}
-                className="card-img-top"
-                alt="StrideMax Sneakers"
-              />
-              <div className="card-body">
-                <p>Men's Shoes</p>
-                <h5 className="card-title">StrideMax Sneakers</h5>
-                <h4>#28,000</h4>
+        <div className="row row-cols-1 row-cols-md-4 g-4">
+          <div className="col ">
+            <div className="card bg-secondary-subtle  ">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
               </div>
-            </div>
-
-            <div className="card">
               <img
                 src={StrideMax}
-                className="card-img-top"
-                alt="StrideMax Sneakers"
+                className="card-img-top  bg-secondary-subtle "
+                alt="SrideMax"
               />
-              <div className="card-body">
-                <p>Men's Shoes</p>
-                <h5 className="card-title">StrideMax Sneakers</h5>
-                <h4>#28,000</h4>
-              </div>
-            </div>
 
-            <div className="card">
-              <img
-                src={StrideMax}
-                className="card-img-top"
-                alt="StrideMax Sneakers"
-              />
-              <div className="card-body">
-                <p>Men's Shoes</p>
-                <h5 className="card-title">StrideMax Sneakers</h5>
-                <h4>#28,000</h4>
+              <div className="card-body bg-white">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">StrideMax</h5>
+                <h4>#80,000</h4>
               </div>
             </div>
           </div>
 
-          <div className="col">
-            <div className="card">
-              <img src={Logo} className="card-img-top" alt="Logo" />
+          <div className="col ">
+            <div className="card bg-secondary-subtle ">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
+              </div>
+              <img
+                src={Shoe1}
+                className="card-img-top bg-secondary-subtle "
+                alt="Black Boot"
+              />
+
+              <div className="card-body  bg-white">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">Black Rubber Boots</h5>
+                <h4>#80,000</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="col ">
+            <div className="card bg-secondary-subtle  ">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
+              </div>
+              <img
+                src={BlueCrocs}
+                className="card-img-top bg-secondary-subtle  "
+                alt="BlueCrocs"
+              />
+
+              <div className="card-body bg-white ">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">Blue Fluffy Crocs</h5>
+                <h4>#80,000</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="col ">
+            <div className="card   bg-secondary-subtle">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
+              </div>
+              <img
+                src={OrangeSneakers}
+                className="card-img-top bg-secondary-subtle  "
+                alt="Orange Sneakers"
+              />
+
+              <div className="card-body bg-white ">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">Orange Fluffy Crocs</h5>
+                <h4>#80,000</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row row-cols-1 row-cols-md-4 g-4">
+          <div className="col ">
+            <div className="card bg-secondary-subtle ">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
+              </div>
+              <img
+                src={CowboyBoot}
+                className="card-img-top bg-secondary-subtle  "
+                alt="Black Boot"
+              />
+
+              <div className="card-body bg-white ">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">Brown Cowboy Boots</h5>
+                <h4>#80,000</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="col ">
+            <div className="card bg-secondary-subtle ">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
+              </div>
+              <img
+                src={BlackBoot}
+                className="card-img-top  bg-secondary-subtle"
+                alt="Black Cowboy Boots"
+              />
+
+              <div className="card-body bg-white ">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">Black Cowboy Boots</h5>
+                <h4>#80,000</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="col ">
+            <div className="card  bg-secondary-subtle">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
+              </div>
+              <img
+                src={RedCrocs}
+                className="card-img-top bg-secondary-subtle  "
+                alt="Red Sneakers"
+              />
+
+              <div className="card-body bg-white ">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">Red Sneakers</h5>
+                <h4>#80,000</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="col ">
+            <div className="card bg-secondary-subtle ">
+              <div className="mx-4">
+                <CiHeart className=" " />
+                <br />
+                <MdOutlineShoppingCart />
+              </div>
+              <img
+                src={StrideMax}
+                className="card-img-top  bg-secondary-subtle "
+                alt="SrideMax"
+              />
+
+              <div className="card-body bg-white">
+                <p>Mens's Shoes</p>
+                <h5 className="card-title">StrideMax</h5>
+                <h4>#80,000</h4>
+              </div>
             </div>
           </div>
         </div>

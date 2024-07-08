@@ -8,7 +8,7 @@ import Mate from "../assets/mate.png";
 const Footer = () => {
   return (
     <>
-      <footer className="container bg-secondary-subtle align-items-end my-0">
+      <footer className="container bg-secondary-subtle align-items-end  ">
         <div className="row  align-items-center justify-content-center  ">
           <img className="col-2 float-end" src={Logo} alt="logo" />
           <div className="col-2">
@@ -19,7 +19,7 @@ const Footer = () => {
         <p className=" row justify-content-center">
           Follow us on social media to get the latest updates about our products
         </p>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mb-5">
           <FaWhatsapp className="col-1" />
           <FaInstagram className="col-1" />
           <CiFacebook className="col-1" />
