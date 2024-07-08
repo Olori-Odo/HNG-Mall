@@ -4,12 +4,13 @@ import StrideMax from "../assets/o-b-sneakers.png";
 import BlackBoot from "../assets/black-boot.png";
 import BlueCross from "../assets/blue-cross.png";
 import CowboyBoot from "../assets/cowboy-boot.png";
+import Logo from "../assets/foot-logo.jpeg";
 import Footer from "./footer";
 
 const Home = () => {
   return (
     <>
-      <div className="container overflow-hidden my-5 ">
+      <div className="container  mt-5 ">
         <div className="row gy-3 px-4 bg-secondary-subtle align-items-center">
           <div className="col-5 gx-5 ">
             <h1>Step into Comfort and Style </h1>
@@ -109,40 +110,13 @@ const Home = () => {
             </div>
           </div>
 
-          {/* <div className="col">
+          <div className="col">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-              </div>
+              <img src={Logo} className="card-img-top" alt="Logo" />
             </div>
-          </div> */}
-        </div>
-
-        <div className=" row card text-bg-dark my-3">
-          <img
-            src={StrideMax}
-            className="col card-img w-75"
-            alt="Orange-Black Sneakers"
-          />
-
-          <div className="col card-img-overlay">
-            <h5 className="card-title">Step into Comfort and Style</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p className="card-text">
-              <small>Last updated 3 mins ago</small>
-            </p>
           </div>
         </div>
+
         <Footer />
       </div>
     </>

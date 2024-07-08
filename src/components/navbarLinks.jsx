@@ -1,15 +1,21 @@
 import React from "react";
-import { GiConverseShoe } from "react-icons/gi";
 import { IoIosSearch } from "react-icons/io";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Outlet, Link } from "react-router-dom";
+import Logo from "../assets/foot-log.png";
+import Sole from "../assets/sole.png";
+import Mate from "../assets/mate.png";
 
 const NavbarLinks = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-danger-subtle">
         <div className="container">
-          <GiConverseShoe />
+          <img className="col-2 float-end" src={Logo} alt="logo" />
+          <div className="col-2">
+            <img src={Sole} alt="Logo Name1" /> <br />
+            <img src={Mate} alt="Logo Name2" />
+          </div>
 
           <button
             className="navbar-toggler"
