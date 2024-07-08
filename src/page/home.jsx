@@ -4,11 +4,12 @@ import StrideMax from "../assets/o-b-sneakers.png";
 import BlackBoot from "../assets/black-boot.png";
 import BlueCross from "../assets/blue-cross.png";
 import CowboyBoot from "../assets/cowboy-boot.png";
+import Footer from "./footer";
 
 const Home = () => {
   return (
     <>
-      <div className="container overflow-hidden my-5 mb-5">
+      <div className="container overflow-hidden my-5 ">
         <div className="row gy-3 px-4 bg-secondary-subtle align-items-center">
           <div className="col-5 gx-5 ">
             <h1>Step into Comfort and Style </h1>
@@ -142,6 +143,7 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
