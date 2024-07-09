@@ -1,7 +1,7 @@
 import React from "react";
 import Shoe1 from "../assets/shoe1.png";
 
-const Product = () => {
+const Cart = () => {
   return (
     <>
       <div className="card" style="width: 18rem;">
@@ -21,4 +21,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Cart;

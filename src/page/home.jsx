@@ -31,7 +31,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <h6 className="py-3">Top Sellers</h6>
+        <h6 className="py-3 text-#6f42c1">Top Sellers</h6>
 
         <div className="row row-cols-1 row-cols-md-3 g-4 ">
           <div className="col ">
@@ -70,7 +70,26 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+          <h3>Testing 2....</h3>
           <h2 className="  py-4">Featured Products</h2>
+          {/* <div className="row">
+            <div className="col-1">
+              <input type="text" className="form-control">
+                All Shoes
+              </input>
+            </div>
+            <div className="col-1">
+              <input type="text" className="form-control">
+                Men's Shoes
+              </input>
+            </div>
+            <div className="col-1">
+              <input type="text" className="form-control">
+                Casuals
+              </input>
+            </div>
+          </div> */}
         </div>
 
         <div className="row row-cols-1 row-cols-md-4 g-4">
@@ -90,7 +109,7 @@ const Home = () => {
               <div className="card-body bg-white">
                 <p>Mens's Shoes</p>
                 <h5 className="card-title">StrideMax</h5>
-                <h4>#80,000</h4>
+                <h4>32,000</h4>
               </div>
             </div>
           </div>
@@ -176,7 +195,7 @@ const Home = () => {
               <div className="card-body bg-white ">
                 <p>Mens's Shoes</p>
                 <h5 className="card-title">Brown Cowboy Boots</h5>
-                <h4>#80,000</h4>
+                <h4>#75,000</h4>
               </div>
             </div>
           </div>
@@ -218,7 +237,7 @@ const Home = () => {
               <div className="card-body bg-white ">
                 <p>Mens's Shoes</p>
                 <h5 className="card-title">Red Sneakers</h5>
-                <h4>#80,000</h4>
+                <h4>#10,000</h4>
               </div>
             </div>
           </div>

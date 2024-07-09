@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Product from "./page/product";
 import "./App.css";
 import Shop from "./page/shop";
-import Home from "./page/home";
 import NavbarLinks from "./components/navbarLinks";
-import MainLayout from "./components/navLinks";
 import NoPageFound from "./page/noPageFound";
+import Home from "../src/page/home";
+import Cart from "./page/cart";
 
 const App = () => {
   return (
@@ -14,10 +13,10 @@ const App = () => {
       <BrowserRouter>
         <NavbarLinks />
         <Routes>
-          <Route path="/" element={<MainLayout />} />
+          <Route path="/" element={<NavbarLinks />} />
           <Route index element={<Home />} />
           <Route path="shop" element={<Shop />} />
-          <Route path="product" element={<Product />} />
+          <Route path="product" element={<Cart />} />
           <Route path="*" element={<NoPageFound />} />
         </Routes>
       </BrowserRouter>
