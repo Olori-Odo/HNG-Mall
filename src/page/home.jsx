@@ -6,7 +6,7 @@ import BlueCrocs from "../assets/blue-cross.png";
 import CowboyBoot from "../assets/cowboy-boot.png";
 import RedCrocs from "../assets/red-crocs.png";
 import OrangeSneakers from "../assets/orange-snea.png";
-import Footer from "./footer";
+// import Footer from "./footer";
 import { CiHeart } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
@@ -130,7 +130,7 @@ const Home = () => {
               <div className="card-body  bg-white">
                 <p>Mens's Shoes</p>
                 <h5 className="card-title">Black Rubber Boots</h5>
-                <h4>#80,000</h4>
+                <h4>#45,000</h4>
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ const Home = () => {
               <div className="card-body bg-white ">
                 <p>Mens's Shoes</p>
                 <h5 className="card-title">Blue Fluffy Crocs</h5>
-                <h4>#80,000</h4>
+                <h4>#10,000</h4>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ const Home = () => {
               <div className="card-body bg-white ">
                 <p>Mens's Shoes</p>
                 <h5 className="card-title">Orange Fluffy Crocs</h5>
-                <h4>#80,000</h4>
+                <h4>#10,000</h4>
               </div>
             </div>
           </div>
@@ -258,13 +258,11 @@ const Home = () => {
               <div className="card-body bg-white">
                 <p>Mens's Shoes</p>
                 <h5 className="card-title">StrideMax</h5>
-                <h4>#80,000</h4>
+                <h4>#28,000</h4>
               </div>
             </div>
           </div>
         </div>
-
-        <Footer />
       </div>
     </>
   );

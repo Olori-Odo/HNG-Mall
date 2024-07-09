@@ -1,18 +1,19 @@
 import React from "react";
 import Shoe1 from "../assets/shoe1.png";
+import StrideMax from "../assets/o-b-sneakers.png";
 
-const Shop = () => {
+const Categories = () => {
   return (
     <>
-      <div class="col-8 m-3 card text-bg-dark">
-        <img src={Shoe1} class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
+      <div className="col-8 m-3 card text-bg-dark">
+        <img src={Shoe1} className="card-img" alt="..." />
+        <div className="card-img-overlay">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
           </p>
-          <p class="card-text">
+          <p className="card-text">
             <small>Last updated 3 mins ago</small>
           </p>
         </div>
@@ -39,4 +40,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Categories;

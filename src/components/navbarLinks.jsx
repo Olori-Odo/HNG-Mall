@@ -9,7 +9,7 @@ import Mate from "../assets/mate.png";
 const NavbarLinks = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-danger-subtle">
+      <nav className="navbar navbar-expand-lg bg-secondary-subtle">
         <div className="container">
           <img className="col-2 float-end" src={Logo} alt="logo" />
           <div className="col-2">
@@ -37,12 +37,44 @@ const NavbarLinks = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/shop" className="nav-link">
+                <Link to="/categories" className="nav-link active">
                   Categories
                 </Link>
               </li>
+
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link to="/cart" className="dropdown-item">
+                      Cart
+                    </Link>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Sole Mate Blogs
+                    </a>
+                  </li>
+                  <li>
+                    <hr className="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
-            <h4>Testing...</h4>
+
             <form className="d-flex rounded-pill" role="search">
               <div className="  input-group col-md-4 px-5">
                 <input
