@@ -8,7 +8,10 @@ import Mate from "../assets/mate.png";
 const Footer = () => {
   return (
     <>
-      <footer className="container bg-secondary-subtle align-items-end  ">
+      <footer
+        className="container-fluid bg-secondary-subtle align-items-end  "
+        style={{ width: 1440 }}
+      >
         <div className="row  align-items-center justify-content-center  ">
           <img className="col-2 float-end" src={Logo} alt="logo" />
           <div className="col-2">

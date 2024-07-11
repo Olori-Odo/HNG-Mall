@@ -42,9 +42,9 @@ const NavbarLinks = () => {
                 </Link>
               </li>
 
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown active">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle active"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -54,7 +54,7 @@ const NavbarLinks = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link to="/cart" className="dropdown-item">
+                    <Link to="/cart" className="dropdown-item active">
                       Cart
                     </Link>
                   </li>

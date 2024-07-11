@@ -37,9 +37,9 @@ const Cart = () => {
           <div className="col-3 my-auto">
             <h4>#32,000</h4>
           </div>
-          <div className="col-3 border text-center my-auto">
-            <div className="rounded">
-              <FaMinus className="border-right border gx-4" />
+          <div className="col-3 border rounded-5 text-center my-auto">
+            <div className="rounded-5  p-2">
+              <FaMinus className="border border-right border mx-5 " />
               <FaPlus />
             </div>
           </div>
@@ -49,37 +49,30 @@ const Cart = () => {
 
         <div className="row">
           <div className="col-8">
-            <button className="btn my-5">Continue Shopping</button>
-          </div>
-
-          <div className="col-2">
-            <h3>Sub Total</h3>
-          </div>
-          <hr />
-          <div>
-            <p className="col-2">#32,000</p>
-          </div>
-          <hr />
-        </div>
-        <div className="row">
-          <div className="col-8"></div>
-
-          <div className="col-2">
-            <h3> Total</h3>
-          </div>
-          <hr />
-          <div>
-            <p className="col-2">#32,000</p>
-          </div>
-          <hr />
-        </div>
-        <div className="row">
-          <div className="col-8"></div>
-
-          <div className="col-2">
-            <button className="btn bg-btn-info my-5 rounded" type="button">
-              Proceed to Checkout
+            <button className="btn btn-secondary rounded-5 my-5">
+              Continue Shopping
             </button>
+          </div>
+          <div className="col-4">
+            <div className="row align-items-center">
+              <h4 className="col">Subtotal</h4>
+              <h5 className="col">#32,000</h5>
+            </div>
+
+            <hr />
+            <div className="row">
+              <h4 className="col"> Total</h4>
+              <h5 className="col">#32,000</h5>
+            </div>
+            <hr />
+            <div className="">
+              <button
+                typeof="button"
+                className="btn btn-primary my-5 rounded-5 text-white "
+              >
+                Proceed to Checkout
+              </button>
+            </div>
           </div>
         </div>
       </div>
