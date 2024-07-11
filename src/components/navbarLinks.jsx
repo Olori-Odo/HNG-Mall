@@ -5,6 +5,7 @@ import { Outlet, Link } from "react-router-dom";
 import Logo from "../assets/foot-log.png";
 import Sole from "../assets/sole.png";
 import Mate from "../assets/mate.png";
+import Cart from "../page/cart";
 
 const NavbarLinks = () => {
   return (
@@ -42,7 +43,7 @@ const NavbarLinks = () => {
                 </Link>
               </li>
 
-              <li className="nav-item dropdown active">
+              {/* <li className="nav-item dropdown active">
                 <a
                   className="nav-link dropdown-toggle active"
                   href="#"
@@ -72,7 +73,7 @@ const NavbarLinks = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
 
             <form className="d-flex rounded-pill" role="search">
@@ -93,7 +94,9 @@ const NavbarLinks = () => {
                 </span>
               </div>
             </form>
-            <MdOutlineShoppingCart className="mx-5 me-2" />
+            <Link to="/cart">
+              <MdOutlineShoppingCart className="mx-5 me-2" />
+            </Link>
           </div>
         </div>
       </nav>
