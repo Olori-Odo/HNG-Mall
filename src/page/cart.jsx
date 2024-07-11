@@ -37,10 +37,10 @@ const Cart = () => {
           <div className="col-3 my-auto">
             <h4>#32,000</h4>
           </div>
-          <div className="col-3 border rounded-5 text-center my-auto">
-            <div className="rounded-5  p-2">
-              <FaMinus className="border border-right border mx-5 " />
-              <FaPlus />
+          <div className="col-3   rounded-5 text-center my-auto">
+            <div className="rounded-5 w-50 border p-2">
+              <FaMinus className="border border-end  mx-3 " />
+              <FaPlus className="mx-2" />
             </div>
           </div>
         </div>

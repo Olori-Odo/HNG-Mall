@@ -5,8 +5,8 @@ import StrideMax from "../assets/o-b-sneakers.png";
 const Categories = () => {
   return (
     <>
-      <div className="col-8 m-3 card text-bg-dark">
-        <img src={Shoe1} className="card-img" alt="..." />
+      <div className="col-8 m-3 card mx-auto text-bg-dark ">
+        <img src={Shoe1} className="card-img " alt="..." />
         <div className="card-img-overlay">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">

@@ -5,7 +5,6 @@ import { Outlet, Link } from "react-router-dom";
 import Logo from "../assets/foot-log.png";
 import Sole from "../assets/sole.png";
 import Mate from "../assets/mate.png";
-import Cart from "../page/cart";
 
 const NavbarLinks = () => {
   return (
@@ -42,38 +41,6 @@ const NavbarLinks = () => {
                   Categories
                 </Link>
               </li>
-
-              {/* <li className="nav-item dropdown active">
-                <a
-                  className="nav-link dropdown-toggle active"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link to="/cart" className="dropdown-item active">
-                      Cart
-                    </Link>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Sole Mate Blogs
-                    </a>
-                  </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
             </ul>
 
             <form className="d-flex rounded-pill" role="search">
