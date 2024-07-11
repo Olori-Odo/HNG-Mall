@@ -71,25 +71,7 @@ const Home = () => {
             </div>
           </div>
 
-          <h3>Testing 2....</h3>
           <h2 className="  py-4">Featured Products</h2>
-          {/* <div className="row">
-            <div className="col-1">
-              <input type="text" className="form-control">
-                All Shoes
-              </input>
-            </div>
-            <div className="col-1">
-              <input type="text" className="form-control">
-                Men's Shoes
-              </input>
-            </div>
-            <div className="col-1">
-              <input type="text" className="form-control">
-                Casuals
-              </input>
-            </div>
-          </div> */}
         </div>
 
         <div className="row row-cols-1 row-cols-md-4 g-4">

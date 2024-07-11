@@ -22,7 +22,7 @@ const Footer = () => {
         <p className=" row justify-content-center">
           Follow us on social media to get the latest updates about our products
         </p>
-        <div className="row justify-content-center align-self-center mb-5">
+        <div className="row justify-content-center align-self-center pb-5">
           <FaWhatsapp className="col-1" />
           <FaInstagram className="col-1" />
           <CiFacebook className="col-1" />
